@@ -1,3 +1,22 @@
+# SVHN yolo-v2 for CS_T0828_HW2
+
+## Procedure:
+install stuff into conda environment; must use h5py<3, or else: https://stackoverflow.com/questions/53740577/does-any-one-got-attributeerror-str-object-has-no-attribute-decode-whi
+
+install CUDA 10.0
+
+see https://www.tensorflow.org/install/source#gpu for tensorflow/cuDNN/CUDA version compatibility
+
+download weights and config.json; see https://github.com/penny4860/Yolo-digit-detector
+
+put test images into DEFAULT_IMAGE_FOLDER (see detection_example.py)
+
+run detection_example.py
+
+prediction results (.json) are saved to disk 
+
+----------below is the original readme.md-----------------
+
 [![Build Status](https://travis-ci.org/penny4860/Yolo-digit-detector.svg?branch=master)](https://travis-ci.org/penny4860/Yolo-digit-detector) [![codecov](https://codecov.io/gh/penny4860/Yolo-digit-detector/branch/master/graph/badge.svg)](https://codecov.io/gh/penny4860/Yolo-digit-detector)
 
 # SVHN yolo-v2 digit detector

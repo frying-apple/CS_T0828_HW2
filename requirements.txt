@@ -9,3 +9,4 @@ sklearn
 pytest-cov
 codecov
 matplotlib
+h5py==2.10.0
